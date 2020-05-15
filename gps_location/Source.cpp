@@ -138,7 +138,8 @@ void printStatus(LOCATION_REPORT_STATUS* status) {
 
 void parseIni(double latitude, double longitude) {
 	BOOL result = FALSE;
-	const char fileLocation[] = "C:\\ProgramData\\TraCS\\Settings\\LocationToolFL.ini";
+	// TODO: Take fileLocation as an input argument when this program is run
+	const char fileLocation[] = "C:\\Change\\This\\ToTheINI.ini";
 	
 	// https://stackoverflow.com/questions/13294067/how-to-convert-string-to-char-array-in-c
 	// For converting the doubles into string/char
